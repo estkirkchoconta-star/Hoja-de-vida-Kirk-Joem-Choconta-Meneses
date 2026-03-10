@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirk Joem | Dev & Gaming</title>
+    <link rel="stylesheet" href="style.css">
+    <style>:root { --primary-color: #8b5cf6; --primary-hover: #7c3aed; }</style>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <h1 class="logo">Kirk Dev</h1>
+            <nav><ul class="nav-links"><li><a href="#sobre-mi">Sobre mí</a></li><li><a href="#skills">Habilidades</a></li><li><a href="#proyectos">Proyectos</a></li><li><a href="#contacto">Contacto</a></li></ul></nav>
+            <button id="theme-toggle" aria-label="Cambiar modo oscuro">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <h2 class="hero-title">Hola, soy <span>Kirk Joem Choconta</span></h2>
+                <p class="hero-quote">"El código es el lenguaje con el que construyo mis propios mundos."</p>
+                <a href="#contacto" class="btn-primary">Iniciar Partida</a>
+            </div>
+            <div class="hero-image"><img src="https://via.placeholder.com/350/8b5cf6/ffffff?text=Kirk" alt="Foto de Kirk"></div>
+        </section>
+
+        <section class="about" id="sobre-mi">
+            <h2>Jugador y Creador</h2>
+            <article class="about-text">
+                <p>Estudiante de décimo grado apasionado por la lógica detrás de los videojuegos. Mientras otros juegan, yo analizo cómo están programadas las mecánicas. Mi meta es estudiar Ingeniería de Sistemas y crear un estudio de desarrollo de videojuegos indie en Colombia que compita a nivel global.</p>
+            </article>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Nivel de Habilidades</h2>
+            <div class="skills-grid">
+                <article class="skill-item"><div class="skill-info"><span>Lógica de Programación (C#)</span><span>85%</span></div><div class="progress-bar"><div class="progress" style="width: 85%;"></div></div></article>
+                <article class="skill-item"><div class="skill-info"><span>Unity Engine (Básico)</span><span>70%</span></div><div class="progress-bar"><div class="progress" style="width: 70%;"></div></div></article>
+                <article class="skill-item"><div class="skill-info"><span>Resolución de Problemas</span><span>95%</span></div><div class="progress-bar"><div class="progress" style="width: 95%;"></div></div></article>
+            </div>
+        </section>
+
+        <section class="projects" id="proyectos">
+            <h2>Inventario de Proyectos</h2>
+            <div class="projects-grid">
+                <article class="card"><div class="card-icon">👾</div><div class="card-content"><h3>Platformer 2D</h3><p>Videojuego de plataformas creado en Unity con físicas personalizadas y pixel art propio.</p></div></article>
+                <article class="card"><div class="card-icon">🧮</div><div class="card-content"><h3>MathQuest</h3><p>App interactiva para ayudar a mis compañeros de colegio a entender trigonometría jugando.</p></div></article>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <h2>Multiplayer (Contacto)</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info"><h3>Redes</h3><p>✉️ kirk.dev@email.com</p><p>🐙 github.com/kirk-dev</p></div>
+                <div class="contact-container">
+                    <form class="contact-form">
+                        <div class="form-group"><input type="text" required placeholder="Tu nombre"></div>
+                        <div class="form-group"><input type="email" required placeholder="tu@correo.com"></div>
+                        <div class="form-group"><textarea rows="4" required placeholder="¿Hacemos un equipo?"></textarea></div>
+                        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
